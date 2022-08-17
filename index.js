@@ -2,7 +2,7 @@ var readLineSync = require("readline-sync")
 
 var score = 0;
 
-var hightScores = [
+var highestScores = [
   {
     name: "Kiran",
     score: 5
@@ -61,7 +61,7 @@ function userScore() {
   console.log("Your score is: " + score);
   console.log("__________");
   console.log("Checkout high scores: ");
-  hightScores.map(score => {
+  highestScores.map(score => {
     console.log("High score is " + score.name + ": " + score.score);
   })
 }
