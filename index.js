@@ -8,6 +8,7 @@ var highestScores = [
     score: 5
   }
 ]
+
 var questions = [
   {
     question: "Where do I live? ",
@@ -65,10 +66,6 @@ function userScore() {
     console.log("High score is " + score.name + ": " + score.score);
   })
 }
-function highScore() {
-
-}
-
 
 welcome();
 game()
